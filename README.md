@@ -30,20 +30,6 @@
 
 ---
 
-## Folder layout
-\`\`\`
-.
-├── data_raw/
-├── data_processed/
-├── figures/
-│   ├── output.png          # article-count bar chart
-│   └── output2.png         # sentiment distribution
-├── notebooks/
-├── src/
-└── README.md
-\`\`\`
-
----
 
 ## Datasets
 | Dataset | Period | Size | Link |
@@ -58,7 +44,7 @@
 ### 1 – Article volume by source
 ![Article count per outlet](output.png)
 
-*Observation.* **CoinTelegraph** supplies > 40 % of all headlines (~13 k).  
+*Observation.* **CoinTelegraph** supplies > 40 \% of all headlines (~13 k).  
 Such dominance can inject *source bias*, so we learn a _Source‑Credibility Index_ and apply class‑weights during training to prevent any single outlet from steering the model.
 
 ---
@@ -103,7 +89,7 @@ The XGBoost model—augmented with sentiment & source features—beats the persi
 
 ## Quick start
 \`\`\`bash
-git clone https://github.com/your-handle/crypto-news-btc-forecast.git
+git clone https://github.com/Mah-En/Crypto-News-Sentiment-and-Bitcoin-Price-Forecasting
 cd crypto-news-btc-forecast
 conda env create -f environment.yml
 conda activate btc-sentiment
