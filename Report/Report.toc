@@ -9,17 +9,19 @@
 \contentsline {subsection}{\numberline {3.3}Temporal Alignment}{4}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Exploratory Data Analysis}{4}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Source Distribution}{4}{subsection.4.1}%
+\contentsline {paragraph}{.}{4}{section*.3}%
 \contentsline {subsection}{\numberline {4.2}Sentiment by Subject}{5}{subsection.4.2}%
+\contentsline {paragraph}{.}{5}{section*.5}%
 \contentsline {subsection}{\numberline {4.3}Temporal Seasonality}{5}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Feature Engineering}{5}{section.5}%
 \contentsline {section}{\numberline {6}Modelling Approach}{6}{section.6}%
 \contentsline {section}{\numberline {7}Evaluation Protocol}{6}{section.7}%
-\contentsline {paragraph}{Temporal Split.}{6}{section*.4}%
-\contentsline {paragraph}{Metrics.}{6}{section*.5}%
-\contentsline {paragraph}{Baselines.}{6}{section*.6}%
-\contentsline {section}{\numberline {8}Results}{6}{section.8}%
-\contentsline {paragraph}{Observations.}{6}{section*.8}%
+\contentsline {paragraph}{Temporal Split.}{6}{section*.6}%
+\contentsline {paragraph}{Metrics.}{6}{section*.7}%
+\contentsline {paragraph}{Baselines.}{6}{section*.8}%
+\contentsline {section}{\numberline {8}Results}{7}{section.8}%
+\contentsline {paragraph}{Observations.}{7}{section*.10}%
 \contentsline {section}{\numberline {9}Error Analysis}{7}{section.9}%
 \contentsline {section}{\numberline {10}Threats to Validity}{7}{section.10}%
 \contentsline {section}{\numberline {11}Future Work}{7}{section.11}%
-\contentsline {section}{\numberline {12}Conclusion}{7}{section.12}%
+\contentsline {section}{\numberline {12}Conclusion}{8}{section.12}%

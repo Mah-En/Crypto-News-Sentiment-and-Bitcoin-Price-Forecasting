@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 APR 2025 23:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 MAY 2025 00:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -706,40 +706,66 @@ File: output.png Graphic file (type png)
 <use output.png>
 Package pdftex.def Info: output.png  used on input line 135.
 (pdftex.def)             Requested size: 452.9679pt x 230.66089pt.
-<output2.png, id=138, 627.3036pt x 339.669pt>
+<output2.png, id=137, 627.3036pt x 339.669pt>
 File: output2.png Graphic file (type png)
 <use output2.png>
-Package pdftex.def Info: output2.png  used on input line 146.
+Package pdftex.def Info: output2.png  used on input line 154.
 (pdftex.def)             Requested size: 407.66833pt x 220.74594pt.
+
+./Report.tex:159: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...rves represent kernel-density estimates.}
+                                                  
+? s
+OK, entering \scrollmode...
+
+./Report.tex:159: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...rves represent kernel-density estimates.}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
 
 
 [4 <./output.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-56.
+79.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 [5 <./output2.png>]
-Overfull \hbox (6.44539pt too wide) in paragraph at lines 183--185
+Overfull \hbox (6.44539pt too wide) in paragraph at lines 206--208
    [] \T1/lmr/m/n/12 XG-Boost, hyper-parameters tuned by Bayesian search (\T1/l
 mtt/m/n/12 max_depth\T1/lmr/m/n/12 =9, \T1/lmtt/m/n/12 eta\T1/lmr/m/n/12 =0.05,
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 185.
+(Font)              <5> on input line 208.
 
 
 [6]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-35.
+58.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 [7{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-(./Report.aux)
+
+[8] (./Report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -752,13 +778,13 @@ Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: 2AD1F92C272C08B76CAA838BE41A4502;2674.
  ) 
 Here is how much of TeX's memory you used:
- 19469 strings out of 473190
- 367695 string characters out of 5715801
- 740687 words of memory out of 5000000
- 42422 multiletter control sequences out of 15000+600000
+ 19473 strings out of 473190
+ 367729 string characters out of 5715801
+ 741954 words of memory out of 5000000
+ 42423 multiletter control sequences out of 15000+600000
  646508 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,80p,309b,1145s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,80p,456b,1179s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
 e/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2025/tex
@@ -774,10 +800,10 @@ fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type
 m/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Report.pdf (7 pages, 356671 bytes).
+Output written on Report.pdf (8 pages, 358738 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

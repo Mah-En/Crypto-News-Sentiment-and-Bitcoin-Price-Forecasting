@@ -133,22 +133,45 @@ exist in crypto markets, simplifying alignment.
 \begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{output.png}
-  \caption{Count of articles per news outlet.  CoinTelegraph dominates
-           with about 3k pieces; CryptoPotato is smallest.}
+  \caption{\textbf{Article count per outlet}.  
+  CoinTelegraph contributes roughly 13 k items—over 40 \% of the entire
+  corpus—whereas CryptoNews and especially CryptoPotato are much
+  smaller.  The grey dashed line shows the global mean count per
+  outlet.}
   \label{fig:source}
 \end{figure}
-The class imbalance suggests weighting sources or learning a
-\emph{source-credibility index} (Section~\ref{sec:features}).
+
+\paragraph{.}
+The dominance of CoinTelegraph raises the risk of \emph{source bias}:
+if that outlet consistently uses a bullish or bearish tone, the model
+may confuse “house style” with genuine market signals.  We mitigate
+this by (i) learning a \emph{Source-Credibility Index} (SCI) and
+(ii) enabling class-weighting in XGBoost so that minority sources
 
 \subsection{Sentiment by Subject}
 \begin{figure}[H]
   \centering
   \includegraphics[width=.9\linewidth]{output2.png}
-  \caption{Distribution of VADER polarity for six frequent subjects.
-           Bitcoin headlines skew mildly positive; NFT shows a heavy
-           negative tail, reflecting 2022 scandals.}
+  \caption{\textbf{Histogram + KDE of VADER polarity for six topics}.  
+  The X-axis is polarity (−1 = very negative, +1 = very positive),
+  the Y-axis shows frequency.  Bitcoin peaks at about +0.15; Ethereum
+  is centred near 0; NFT exhibits a long negative tail.  Translucent
+  curves represent kernel-density estimates.}
   \label{fig:sentiment}
 \end{figure}
+
+\paragraph{.}
+Three insights emerge:  
+(1) Bitcoin headlines are mildly skewed positive, matching the overall
+bullish tone of the period studied.  
+(2) The heavy left tail for NFT reflects 2022’s “crypto winter” and
+multiple scam reports, suggesting the model should assign extra weight
+to strongly negative NFT news.  
+(3) Ethereum’s near-symmetric distribution stems from a mix of
+technical progress (The Merge, L2 roll-outs) and regulatory
+uncertainty—helpful for reducing variance in the classifier’s
+predictions.
+
 
 \subsection{Temporal Seasonality}
 STL decomposition of hourly news counts reveals a weekend trough,
