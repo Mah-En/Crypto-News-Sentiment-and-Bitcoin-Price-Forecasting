@@ -56,7 +56,7 @@
 ## Exploratory Data Analysis
 
 ### 1 – Article volume by source
-![Article count per outlet](figures/output.png)
+![Article count per outlet](output.png)
 
 *Observation.* **CoinTelegraph** supplies > 40 % of all headlines (~13 k).  
 Such dominance can inject *source bias*, so we learn a _Source‑Credibility Index_ and apply class‑weights during training to prevent any single outlet from steering the model.
@@ -64,7 +64,7 @@ Such dominance can inject *source bias*, so we learn a _Source‑Credibility Ind
 ---
 
 ### 2 – Sentiment distribution by topic
-![Sentiment distribution](figures/output2.png)
+![Sentiment distribution](output2.png)
 
 *Key insights.*
 
