@@ -105,9 +105,9 @@ python src/train.py --model xgb --optuna 100
 ---
 
 ## Gradio demo
-\`\`\`bash
+``` bash
 python -m gradio app.py
-\`\`\`
+```
 Paste any crypto headline and the app returns class probabilities plus SHAP explanations.
 
 ---
