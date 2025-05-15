@@ -148,17 +148,18 @@ may confuse “house style” with genuine market signals.  We mitigate
 this by (i) learning a \emph{Source-Credibility Index} (SCI) and
 (ii) enabling class-weighting in XGBoost so that minority sources
 
+
 \subsection{Sentiment by Subject}
 \begin{figure}[H]
   \centering
   \includegraphics[width=.9\linewidth]{output2.png}
-  \caption{\textbf{Histogram + KDE of VADER polarity for six topics}.  
-  The X-axis is polarity (−1 = very negative, +1 = very positive),
-  the Y-axis shows frequency.  Bitcoin peaks at about +0.15; Ethereum
-  is centred near 0; NFT exhibits a long negative tail.  Translucent
-  curves represent kernel-density estimates.}
+  \caption{\textbf{Histogram + KDE of VADER polarity for six topics.}  
+  The X-axis is polarity (-1 = very negative, +1 = very positive),
+  the Y-axis shows frequency. Bitcoin peaks at about +0.15; Ethereum
+  is centred near 0; NFT exhibits a long negative tail. Translucent curves represent kernel-density estimates.}
   \label{fig:sentiment}
 \end{figure}
+
 
 \paragraph{.}
 Three insights emerge:  
@@ -223,6 +224,21 @@ imbalance.
 \paragraph{Baselines.}  
 \emph{Persistence} (direction = previous hour) and
 \emph{Majority class} (\(\rightarrow\)).
+
+
+% --------------------------------------------------------------------------
+
+\section*{Web-Based Prediction Interface}
+
+To enhance the accessibility and usability of the developed model, a user-friendly web interface was implemented using \textbf{Gradio}. As shown in Figure~\ref{fig:gradio-ui}, the interface allows users to input the title of a Bitcoin-related news article and receive an immediate prediction of the expected price movement. The interface utilizes the same feature extraction and classification pipeline used during model training, ensuring consistent and reliable inference. This deployment bridges the gap between experimental research and practical application, enabling analysts and traders to make informed decisions based on real-time news sentiment.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{Api.png}
+    \caption{Web-based interface for Bitcoin price movement prediction based on news headlines. Built with Gradio.}
+    \label{fig:gradio-ui}
+\end{figure}
+
 
 % --------------------------------------------------------------------------
 \section{Results}

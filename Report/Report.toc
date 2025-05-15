@@ -20,8 +20,8 @@
 \contentsline {paragraph}{Metrics.}{6}{section*.7}%
 \contentsline {paragraph}{Baselines.}{6}{section*.8}%
 \contentsline {section}{\numberline {8}Results}{7}{section.8}%
-\contentsline {paragraph}{Observations.}{7}{section*.10}%
+\contentsline {paragraph}{Observations.}{7}{section*.12}%
 \contentsline {section}{\numberline {9}Error Analysis}{7}{section.9}%
-\contentsline {section}{\numberline {10}Threats to Validity}{7}{section.10}%
-\contentsline {section}{\numberline {11}Future Work}{7}{section.11}%
+\contentsline {section}{\numberline {10}Threats to Validity}{8}{section.10}%
+\contentsline {section}{\numberline {11}Future Work}{8}{section.11}%
 \contentsline {section}{\numberline {12}Conclusion}{8}{section.12}%
