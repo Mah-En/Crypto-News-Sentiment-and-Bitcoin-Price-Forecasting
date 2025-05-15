@@ -88,7 +88,7 @@ The XGBoost model—augmented with sentiment & source features—beats the persi
 ---
 
 ## Quick start
-\`\`\`bash
+``` bash
 git clone https://github.com/Mah-En/Crypto-News-Sentiment-and-Bitcoin-Price-Forecasting
 cd crypto-news-btc-forecast
 conda env create -f environment.yml
@@ -100,7 +100,7 @@ python src/merge.py
 
 # train XGBoost
 python src/train.py --model xgb --optuna 100
-\`\`\`
+```
 
 ---
 
