@@ -105,7 +105,7 @@ python src/train.py --model xgb --optuna 100
 
 ---
 
-![API(Api.png)
+![API(Api.png)]
 
 ---
 
